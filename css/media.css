@@ -94,6 +94,10 @@
         text-align: center;
     }
 
+    .servisec__content--items {
+        display: none;
+    }
+
     .services__info {
         text-align: center;
         margin-top: -150px;
@@ -135,15 +139,19 @@
     }
 
     .diagn__img {
-        width: 300px;
+        width: 310px;
     }
 
     .tires__img {
-        width: 300px;
+        width: 310px;
     }
 
     .engines__img {
-        width: 300px;
+        width: 310px;
+    }
+
+    .sercives__text p {
+        margin: 0 0 21px 0;
     }
 
     .footer__content {
@@ -161,9 +169,10 @@
         font-size: 12px;
     }
 
-    .sercives__text p {
-        margin: 0 0 21px 0;
+    .logo img {
+        height: 60px;
     }
+
 }
 
 @media (max-width: 460px) {
@@ -192,6 +201,18 @@
         font-size: 22px;
     }
 
+    .about__text h2 {
+        text-align: left;
+    }
+
+    .about__text p {
+        text-align: left;
+    }
+
+    .about__text a {
+        text-decoration: underline;
+    }
+
     .processes__content h2 {
         font-size: 47px;
     }
@@ -204,6 +225,9 @@
         height: 110px;
     }
 
+    .logo img {
+        height: 55px;
+    }
 
 }
 
@@ -231,5 +255,9 @@
 @media (max-width:330px) {
     .services__content {
         display: block;
+    }
+
+    .logo img {
+        height: 50px;
     }
 }

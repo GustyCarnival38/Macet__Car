@@ -17,6 +17,10 @@
 
 }
 
+.logo img {
+    margin-top: 11px;
+}
+
 /* header start */
 
 header {
@@ -90,6 +94,7 @@ header {
 
 .intro {
     background: url(../img/road-g9875459d1_1920\ 1.jpg) no-repeat;
+    background-position-x: center;
     background-size: cover;
     position: relative;
 }
@@ -214,6 +219,7 @@ header {
 
 .diagn__img {
     background: url(../img/iStock-1125646126\ 1.jpg) no-repeat;
+    background-position: center;
     padding-bottom: 130%;
     width: 100%;
     position: relative;
@@ -247,6 +253,7 @@ header {
 
 .tires__img {
     background: url(../img/iStock2\ 1.jpg) no-repeat;
+    background-position: center;
     width: 100%;
     padding-bottom: 130%;
     position: relative;
@@ -278,6 +285,7 @@ header {
 
 .engines__img {
     background: url(../img/iStock3.jpg) no-repeat;
+    background-position: bottom;
     width: 100%;
     padding-bottom: 130%;
     position: relative;
